@@ -1,0 +1,259 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    background-image: url(images/jai.jpg);
+    height:110vh;
+  background-size: cover;
+  background-position: center;
+    background-position:top ;
+    width:100vw;
+}
+.main .box{
+    height : 110vh;
+    width:100%;
+    background-color: black;
+    opacity:0.50;
+    position:absolute;
+}
+.navbar{
+    height:80px;
+    font-size:25px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    position:relative;
+    flex-wrap: wrap;
+}
+.outer{
+    width:40px;
+    height:45px;
+    display: flex;
+    font-size:40px;
+    padding-bottom: 17px;
+    flex-wrap: wrap;
+    
+}
+.inner{
+    position:absolute;
+    bottom:10px;
+    font-size:20px;
+    color:#007BFF;
+    align-content: center;
+    left:5px;
+    top:4px;
+}
+.logo{
+    display: flex;
+    position: relative;
+}
+.nav-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:800px;
+    flex-wrap: wrap;
+}
+.navbar button{
+    font-size: 25px;
+    background-color: #007BFF;
+    border-radius: 13px;
+    color:white;
+    height:50px;
+    width:120px;
+}
+.nav:hover{
+    scale:1.1;
+    cursor: pointer;
+
+}
+button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.hero-contenti{
+    text-align: center;
+    position: relative;
+    color:white;
+}
+.hero{
+    margin-top:150px;
+    font-size:75px;
+}
+.hero-text{
+    font-size:25px;
+    margin-top:5px;
+}
+.hero-button{
+    background-color: #007BEE;
+    height:75px;
+    width:240px;
+    margin-top:45px;
+    font-size:30px;
+    border-radius: 15px;
+    color:white;
+}
+body{
+    background-color: black;
+}
+.features{
+    color:white;
+    margin-top:135px;
+    font-size:25px;
+    padding:15px 80px;
+}
+.features h1{
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.quality{
+    height:350px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.perform{
+    height:350px;
+    width:350px;
+    display: flex;
+   flex-direction: column;
+   align-items: center; /* optional, for horizontal centering */
+   text-align: center;
+   gap: 30px; 
+   margin-top:40px;
+   flex-wrap: wrap;
+    
+}.perform i{
+    font-size:75px;
+    color: #a39f92;
+}
+.perform p{
+    color:#b3b3b3;
+}
+.rating{
+    color:white;
+    height:350px;
+    padding:15px 80px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.artic{
+    width:700px;
+    height:300px;
+    font-size:25px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    flex-wrap: wrap;
+
+}
+.artic h1{
+    font-size: 40px;
+}
+.artic i{
+    color:gold;
+    font-size:35px;
+}
+.artic p{
+    padding-top: 35px;
+}
+.artic .review{
+    color:white;
+    font-size:25px;
+   padding-top:0px;
+}
+.watch-ceni{
+    height:300px;
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-wrap: wrap;
+
+    
+}
+.watch-ceni h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.detail{
+    display: flex;
+    flex-wrap: wrap;
+    height:60px;
+    flex-wrap: wrap;
+}
+.detail input{
+    height:55px;
+    width:250px;
+    border-radius: 10px;
+    background-color: #b3b3b3;
+}
+.detail button{
+    width:120px;
+    height:55px;
+    background-color: #007BEE;
+    border-radius: 10px;
+    margin-left:12px;
+}
+.watch-ceni p{
+    margin-bottom: 15px;
+}
+.foot-panel{
+    height:80px;
+    background-color: #007BEE;
+    display:flex;
+    margin-top:80px;
+    padding: 0px 250px;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-size:20px;
+    flex-wrap: wrap;
+    
+}
+.foot:hover{
+    cursor:pointer;
+}
+.foot-panel select{
+    background-color: #007BEE;
+    color:white;
+    border:none;
+    font-size:20px;
+}
+@media (max-width: 768px) {
+  .hero {
+    font-size: 40px;
+  }
+
+  .hero-button {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .nav-button {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .quality {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .rating {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .foot-panel {
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
